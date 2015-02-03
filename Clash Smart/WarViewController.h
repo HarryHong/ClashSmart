@@ -10,4 +10,6 @@
 
 @interface WarViewController : UITableViewController
 
+-(IBAction)backButtonTapped:(id)sender;
+
 @end

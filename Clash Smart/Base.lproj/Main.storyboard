@@ -26,7 +26,6 @@
         <!--War View Controller-->
         <scene sceneID="51x-GQ-myI">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a2u-Pr-A5M" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="h0c-rH-8jg" customClass="WarViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="V4c-Pf-zg6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -49,6 +48,7 @@
                         <barButtonItem key="leftBarButtonItem" title="BBAC" id="8CK-Nr-mFK"/>
                     </navigationItem>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a2u-Pr-A5M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1242" y="-231"/>
         </scene>
