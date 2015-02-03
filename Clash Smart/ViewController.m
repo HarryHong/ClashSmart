@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Parse/Parse.h>
 
 @interface ViewController ()
 
@@ -16,6 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    for (NSString* family in [UIFont familyNames])
+    {
+        NSLog(@"%@", family);
+        
+        for (NSString* name in [UIFont fontNamesForFamilyName: family])
+        {
+            NSLog(@"  %@", name);
+        }
+    }
     // Do any additional setup after loading the view, typically from a nib.
 }
 
