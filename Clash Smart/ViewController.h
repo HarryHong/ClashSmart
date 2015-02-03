@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *createWarButton;
+@property (strong, nonatomic) IBOutlet UIButton *joinWarButton;
+
 
 @end
 

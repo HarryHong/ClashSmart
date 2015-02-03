@@ -14,6 +14,10 @@
 		20B03CCB1A805D5F0003E84B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B03CCA1A805D5F0003E84B /* Images.xcassets */; };
 		20B03CCE1A805D5F0003E84B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B03CCC1A805D5F0003E84B /* LaunchScreen.xib */; };
 		20B03CDA1A805D5F0003E84B /* Clash_SmartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B03CD91A805D5F0003E84B /* Clash_SmartTests.m */; };
+		20B03CE51A8076610003E84B /* CreateWarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B03CE41A8076610003E84B /* CreateWarViewController.m */; };
+		20B03CE81A8076740003E84B /* JoinWarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B03CE71A8076740003E84B /* JoinWarViewController.m */; };
+		20B03CEB1A80771B0003E84B /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B03CEA1A80771B0003E84B /* SettingViewController.m */; };
+		20B03CF11A80897D0003E84B /* WarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B03CF01A80897D0003E84B /* WarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		20B03CD31A805D5F0003E84B /* Clash SmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clash SmartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B03CD81A805D5F0003E84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20B03CD91A805D5F0003E84B /* Clash_SmartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clash_SmartTests.m; sourceTree = "<group>"; };
+		20B03CE31A8076610003E84B /* CreateWarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateWarViewController.h; sourceTree = "<group>"; };
+		20B03CE41A8076610003E84B /* CreateWarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateWarViewController.m; sourceTree = "<group>"; };
+		20B03CE61A8076740003E84B /* JoinWarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinWarViewController.h; sourceTree = "<group>"; };
+		20B03CE71A8076740003E84B /* JoinWarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinWarViewController.m; sourceTree = "<group>"; };
+		20B03CE91A80771B0003E84B /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		20B03CEA1A80771B0003E84B /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		20B03CEF1A80897D0003E84B /* WarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarViewController.h; sourceTree = "<group>"; };
+		20B03CF01A80897D0003E84B /* WarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,14 @@
 				20B03CCA1A805D5F0003E84B /* Images.xcassets */,
 				20B03CCC1A805D5F0003E84B /* LaunchScreen.xib */,
 				20B03CBD1A805D5F0003E84B /* Supporting Files */,
+				20B03CE31A8076610003E84B /* CreateWarViewController.h */,
+				20B03CE41A8076610003E84B /* CreateWarViewController.m */,
+				20B03CE61A8076740003E84B /* JoinWarViewController.h */,
+				20B03CE71A8076740003E84B /* JoinWarViewController.m */,
+				20B03CE91A80771B0003E84B /* SettingViewController.h */,
+				20B03CEA1A80771B0003E84B /* SettingViewController.m */,
+				20B03CEF1A80897D0003E84B /* WarViewController.h */,
+				20B03CF01A80897D0003E84B /* WarViewController.m */,
 			);
 			path = "Clash Smart";
 			sourceTree = "<group>";
@@ -220,8 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				20B03CC61A805D5F0003E84B /* ViewController.m in Sources */,
+				20B03CE51A8076610003E84B /* CreateWarViewController.m in Sources */,
 				20B03CC31A805D5F0003E84B /* AppDelegate.m in Sources */,
+				20B03CE81A8076740003E84B /* JoinWarViewController.m in Sources */,
+				20B03CF11A80897D0003E84B /* WarViewController.m in Sources */,
 				20B03CC01A805D5F0003E84B /* main.m in Sources */,
+				20B03CEB1A80771B0003E84B /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
