@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02039B241A81D3B7009A5C35 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02039B231A81D3B7009A5C35 /* ParseFacebookUtils.framework */; };
+		02039B281A81D50E009A5C35 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02039B271A81D50E009A5C35 /* FacebookSDK.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		02D5BE8F1A80761C009F98DB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D5BE8E1A80761C009F98DB /* LoginViewController.m */; };
 		02D5BE911A807B9C009F98DB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D5BE901A807B9C009F98DB /* Bolts.framework */; };
 		02D5BE931A807BA3009F98DB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D5BE921A807BA3009F98DB /* Parse.framework */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02039B231A81D3B7009A5C35 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		02039B271A81D50E009A5C35 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		02D5BE8D1A80761C009F98DB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		02D5BE8E1A80761C009F98DB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		02D5BE901A807B9C009F98DB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Desktop/parse-library-1.6.2/Bolts.framework"; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 				02D5BEA71A807BED009F98DB /* SystemConfiguration.framework in Frameworks */,
 				02D5BE931A807BA3009F98DB /* Parse.framework in Frameworks */,
 				02D5BE911A807B9C009F98DB /* Bolts.framework in Frameworks */,
+				02039B241A81D3B7009A5C35 /* ParseFacebookUtils.framework in Frameworks */,
+				02039B281A81D50E009A5C35 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +112,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02039B291A81D589009A5C35 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				02D5BEAE1A808106009F98DB /* RegistrationViewController.m */,
+				02D5BEAD1A808106009F98DB /* RegistrationViewController.h */,
+				02D5BE8E1A80761C009F98DB /* LoginViewController.m */,
+				02D5BE8D1A80761C009F98DB /* LoginViewController.h */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		02D5BEA81A808016009F98DB /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +135,8 @@
 		20B03CB11A805D5F0003E84B = {
 			isa = PBXGroup;
 			children = (
+				02039B271A81D50E009A5C35 /* FacebookSDK.framework */,
+				02039B231A81D3B7009A5C35 /* ParseFacebookUtils.framework */,
 				02D5BE941A807BED009F98DB /* AudioToolbox.framework */,
 				02D5BE951A807BED009F98DB /* CFNetwork.framework */,
 				02D5BE961A807BED009F98DB /* CoreGraphics.framework */,
@@ -149,29 +168,26 @@
 			isa = PBXGroup;
 			children = (
 				20B03CC11A805D5F0003E84B /* AppDelegate.h */,
-				02D5BEA81A808016009F98DB /* Font */,
 				20B03CC21A805D5F0003E84B /* AppDelegate.m */,
 				20B03CC41A805D5F0003E84B /* ViewController.h */,
 				20B03CC51A805D5F0003E84B /* ViewController.m */,
+				02039B291A81D589009A5C35 /* Login */,
 				20B03CC71A805D5F0003E84B /* Main.storyboard */,
 				20B03CCA1A805D5F0003E84B /* Images.xcassets */,
 				20B03CCC1A805D5F0003E84B /* LaunchScreen.xib */,
-				20B03CBD1A805D5F0003E84B /* Login */,
+				02D5BEA81A808016009F98DB /* Font */,
+				20B03CBD1A805D5F0003E84B /* Supporting Files */,
 			);
 			path = "Clash Smart";
 			sourceTree = "<group>";
 		};
-		20B03CBD1A805D5F0003E84B /* Login */ = {
+		20B03CBD1A805D5F0003E84B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				20B03CBE1A805D5F0003E84B /* Info.plist */,
 				20B03CBF1A805D5F0003E84B /* main.m */,
-				02D5BE8D1A80761C009F98DB /* LoginViewController.h */,
-				02D5BE8E1A80761C009F98DB /* LoginViewController.m */,
-				02D5BEAD1A808106009F98DB /* RegistrationViewController.h */,
-				02D5BEAE1A808106009F98DB /* RegistrationViewController.m */,
 			);
-			name = Login;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		20B03CD61A805D5F0003E84B /* Clash SmartTests */ = {
@@ -422,6 +438,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/honghao/Desktop/parse-library-1.6.2",
+					"$(PROJECT_DIR)",
+					/Users/honghao/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = "Clash Smart/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -436,6 +454,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/honghao/Desktop/parse-library-1.6.2",
+					"$(PROJECT_DIR)",
+					/Users/honghao/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = "Clash Smart/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

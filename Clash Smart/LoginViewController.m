@@ -9,6 +9,7 @@
 #import "LoginViewController.h"
 #import "RegistrationViewController.h"
 #import <Parse/Parse.h>
+#import <FacebookSDK/FacebookSDK.h>
 
 
 @interface LoginViewController ()
@@ -21,6 +22,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    FBLoginView *loginView = [[FBLoginView alloc] init];
+    loginView.center = self.view.center;
+    [self.view addSubview:loginView];
     // Do any additional setup after loading the view.
 }
 

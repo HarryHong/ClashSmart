@@ -15,6 +15,8 @@
 @property (strong, nonatomic) IBOutlet UITextField *txtPassword;
 @property (strong, nonatomic) IBOutlet UITextField *txtCFMPassword;
 
+
+
 -(IBAction)btnRegisterPressed:(id)sender;
 
 @end
