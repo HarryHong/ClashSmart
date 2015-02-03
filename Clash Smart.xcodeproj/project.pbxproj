@@ -15,6 +15,8 @@
 		20B03C951A8052140003E84B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B03C941A8052140003E84B /* Images.xcassets */; };
 		20B03C981A8052140003E84B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B03C961A8052140003E84B /* LaunchScreen.xib */; };
 		20B03CA41A8052140003E84B /* Clash_SmartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B03CA31A8052140003E84B /* Clash_SmartTests.m */; };
+		20B03CAF1A8053720003E84B /* CCBackBeat-Light_5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20B03CAD1A8053720003E84B /* CCBackBeat-Light_5.ttf */; };
+		20B03CB01A8053720003E84B /* Supercell-Magic_5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20B03CAE1A8053720003E84B /* Supercell-Magic_5.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		20B03C9D1A8052140003E84B /* Clash SmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clash SmartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B03CA21A8052140003E84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20B03CA31A8052140003E84B /* Clash_SmartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clash_SmartTests.m; sourceTree = "<group>"; };
+		20B03CAD1A8053720003E84B /* CCBackBeat-Light_5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CCBackBeat-Light_5.ttf"; sourceTree = "<group>"; };
+		20B03CAE1A8053720003E84B /* Supercell-Magic_5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Supercell-Magic_5.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		20B03C841A8052140003E84B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				20B03CAD1A8053720003E84B /* CCBackBeat-Light_5.ttf */,
+				20B03CAE1A8053720003E84B /* Supercell-Magic_5.ttf */,
 				20B03C851A8052140003E84B /* Info.plist */,
 				20B03C861A8052140003E84B /* main.m */,
 			);
@@ -206,6 +212,8 @@
 			files = (
 				20B03C931A8052140003E84B /* Main.storyboard in Resources */,
 				20B03C981A8052140003E84B /* LaunchScreen.xib in Resources */,
+				20B03CB01A8053720003E84B /* Supercell-Magic_5.ttf in Resources */,
+				20B03CAF1A8053720003E84B /* CCBackBeat-Light_5.ttf in Resources */,
 				20B03C951A8052140003E84B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
