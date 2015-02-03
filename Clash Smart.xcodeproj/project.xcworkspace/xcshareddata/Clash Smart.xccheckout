@@ -10,14 +10,14 @@
 	<string>Clash Smart</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>58CF81E31FD661D7C0EE245AFCB9305DB1FEF535</key>
+		<key>CA01431C0C09FB637339EE7A669B7DBA9D15AB67</key>
 		<string>https://github.com/HarryHong/ClashSmart.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Clash Smart.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>58CF81E31FD661D7C0EE245AFCB9305DB1FEF535</key>
+		<key>CA01431C0C09FB637339EE7A669B7DBA9D15AB67</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>58CF81E31FD661D7C0EE245AFCB9305DB1FEF535</string>
+	<string>CA01431C0C09FB637339EE7A669B7DBA9D15AB67</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>58CF81E31FD661D7C0EE245AFCB9305DB1FEF535</string>
+			<string>CA01431C0C09FB637339EE7A669B7DBA9D15AB67</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ClashSmart</string>
 		</dict>
